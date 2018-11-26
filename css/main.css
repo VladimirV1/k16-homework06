@@ -1,0 +1,126 @@
+@import url(http://allfont.ru/allfont.css?fonts=courier);
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	color: #252525;
+	background-color: #d1e4ff; /*он походу не нужен, сделал для наглядности*/
+}
+code, samp, kbd {
+	font-family: 'Courier', arial;
+}
+sup, sub {
+	font-size: 10px;
+}
+a {
+	color: #2780e3;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+	background-color: #fff;
+
+}
+.content {
+	margin: 0 30px;
+	padding-top: 80px;
+	padding-bottom: 65px;
+}
+
+.underline {
+	border-bottom: 2px solid #828282;
+}
+
+/*размер заголовков*/
+h1 {
+	font-size: 42px;
+	margin: 0;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 26px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 16px;
+}
+/*маркеры тегов*/
+
+.teg {
+	background-color: #f0e6d6;
+}
+
+.style-samp {
+	background-color: #eadcdc;
+}
+.style-kbd {
+	background-color: #eadcea;
+}
+
+blockquote {
+	border-left:4px solid #b496b4;
+	background-color: #eadcea;
+	margin: 0;
+	padding: 10px 0px 10px 36px;
+}
+pre {
+	background-color: #f0e6d6;
+	padding: 10px 0 10px 14px;
+	white-space: pre-wrap;
+}
+/*маркированый список*/
+.square {
+ 	list-style-type: square;
+}
+.list {
+	list-style: none;
+}
+.list li:before {
+	content: '◻';	
+	font-size: 10px;
+	vertical-align: middle;
+	margin-right:8px;
+	display: inline-block;
+}
+/*список определений*/
+dt {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*таблицы*/ 
+.wrapper {
+  width: 920px;
+  margin: 0 auto;
+ }
+table {
+	border-collapse: collapse;
+	border: 1px solid #b496b4;
+	width: 100%;
+}
+td {
+	border: 1px solid #b496b4;
+	padding-left: 10px;
+}
+th {
+	font-weight: normal;
+	border: 1px solid #b496b4;
+	background-color: #eadcea;
+}
+ 
+@media only screen and (max-width: 920px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+
